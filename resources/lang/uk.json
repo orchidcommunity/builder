@@ -1,0 +1,21 @@
+{
+  "Choose Model": "Обрати модель",
+  "Create a new model for your application": "Створити нову модель для додатку",
+  "A model with the same name already exists.": "Модель з таким ім'ям вже існує.",
+  "Model Generator": "Генератор моделей",
+  "Model name:": "Назва моделі",
+  "Model builder": "Генератор моделей",
+  "Model has been deleted": "Модель видалена",
+  "Model successfully created.": "Модель успішно створена.",
+  "Relations": "Відносини",
+  "Relationships": "Відносини",
+  "Select Model": "Виберіть модель",
+  "Select or create model": "Виберіть або створіть модель",
+  "Columns": "Колонки",
+  "Add new model": "Додати нову модель",
+  "All models have been successfully generated.": "Все моделі були успішно сгенеровані.",
+  "Build all models": "Сгенерувати всі моделі",
+  "Determine the columns for your model": "Визначте колонки для вашої моделі",
+  "Determine the relationships for this model": "Визначте відносини для цієї моделі",
+  "Add your models, customize your columns, and even set up relationships.": "Додайте свої моделі, налаштуйте колонки та відносини."
+}

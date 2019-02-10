@@ -1,0 +1,21 @@
+{
+  "All models have been successfully generated.": "Все модели были успешно сгенерированы.",
+  "A model with the same name already exists.": "Модель с таким именем уже существует.",
+  "Create a new model for your application": "Создайте новую модель для вашего приложения",
+  "Model Generator": "Модель генератора",
+  "Model name:": "Название модели:",
+  "Model builder": "Строитель моделей",
+  "Model has been deleted": "Модель была удалена",
+  "Model successfully created.": "Модель успешно создана.",
+  "Select Model": "Выберите модель",
+  "Choose Model": "Выбрать модель",
+  "Relations": "Отношения",
+  "Relationships": "Отношения",
+  "Select or create model": "Выберите или создайте модель",
+  "Columns": "Столбцы",
+  "Add new model": "Добавить новую модель",
+  "Build all models": "Сборка всех моделей",
+  "Determine the columns for your model": "Определить столбцы для вашей модели",
+  "Determine the relationships for this model": "Определить отношения по этой модели",
+  "Add your models, customize your columns, and even set up relationships.": "Добавьте свои модели, настройте свои столбцы и установите отношения."
+}

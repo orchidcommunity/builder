@@ -1,0 +1,54 @@
+{
+    "name": "orchidcommunity/builder",
+    "description": "Helps to quickly develop application",
+    "keywords": [
+        "orchid",
+        "builder"
+    ],
+    "homepage": "https://github.com/orchid/builder",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Alexandr Chernyaev",
+            "email": "bliz48rus@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "orchid/platform": "^3.8",
+        "laracasts/generators": "^1.1",
+        "zendframework/zend-code": "^3.3"
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.7.*",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Orchid\\Builder\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Orchid\\Builder\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Orchid\\Platform\\Providers\\FoundationServiceProvider",
+                "Orchid\\Builder\\BuilderServiceProvider"
+            ]
+        }
+    }
+}
